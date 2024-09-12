@@ -1,0 +1,36 @@
+.result-container {
+  font-family: 'Poppins' ;
+  text-align: left; /* Alinear todos los elementos a la izquierda */
+}
+
+.result-title {
+  color:#80d1b9; /* Color para "Resultados:" */
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.result-item {  
+  color: #e9d6d2; /* Color para "Decimal:", "Binario:", etc. */
+  font-size: 18px;
+}
+
+/* Colores para cada valor */
+.decimal-value {
+  color: #E94E77; /* Color para el valor Decimal */
+  font-weight: bold;
+}
+
+.binary-value {
+  color: #F5A623; /* Color para el valor Binario */
+  font-weight: bold;
+}
+
+.octal-value {
+  color: #7ED321; /* Color para el valor Octal */
+  font-weight: bold;
+}
+
+.hexadecimal-value {
+  color: #9013FE; /* Color para el valor Hexadecimal */
+  font-weight: bold;
+}

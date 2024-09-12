@@ -1,0 +1,50 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(50, 23, 124);
+  background: radial-gradient(
+    circle,
+    rgba(50, 23, 124, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+.container {
+  border: 3px solid rgba(255, 255, 255, 0.23);
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+  background-color: aliceblue transparent;
+  border-radius: 30px;
+  width: 500px;
+}
+.title-efecct {
+  background-image: linear-gradient(to left, #61dafbaa, red);
+  background-size: 300% 300%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: anime 2s infinite alternate ease-in-out;
+}
+@keyframes anime {
+  from {
+    background-position: 0% 50%;
+  }
+  to {
+    background-position: 100% 50%;
+  }
+}
+
+.log:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.buttoon:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
